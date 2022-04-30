@@ -161,7 +161,6 @@ console.log(frase);
 // Por último, como bonus, mostraremos por pantalla las urls de todas las imágenes de los poderes.
 for (const key in elBoss.poderes) {
     const element = elBoss.poderes[key];
-        console.log(element.imagenes)
 
         for(let i=0; i<element.imagenes.length;i++){
             if (i==0){
