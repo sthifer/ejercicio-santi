@@ -162,13 +162,8 @@ console.log(frase);
 for (const key in elBoss.poderes) {
     const element = elBoss.poderes[key];
 
-        for(let i=0; i<element.imagenes.length;i++){
-            if (i==0){
-                console.log(element.imagenes[i].imagen1.url);
-            }else{
-                console.log(element.imagenes[i].imagen2.url);
-            }
-        }
+    console.log(element.imagenes[0].imagen1.url);
+    console.log(element.imagenes[1].imagen2.url);
 }
 
 
